@@ -1,0 +1,35 @@
+.tools-container {
+  position: absolute;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #232329;
+  padding: 16px;
+  border-radius: 0.5rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  button {
+    border: 1px solid none;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: transparent;
+    border-radius: 0.5rem;
+    padding: 8px;
+    cursor: pointer;
+    transition: color 0.2s ease, background-color 0.2s ease;
+  }
+
+  button:hover {
+    background-color: #403e6a42;
+  }
+
+  button.active {
+    background-color: #403e6a;
+    color: white;
+  }
+}
